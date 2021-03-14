@@ -2,8 +2,6 @@
 ## Amplify
 ---
 
-An application developed for the 2021 Onramp SiriusXM + Pandora Software Engineering Apprenticeship as a take-home project
-
 
 ## 📝 Table of Contents
 - [About](#about)
@@ -20,7 +18,7 @@ Amplify is a software engineering, web development, and technology podcast web p
 The Redux store serves as our single source of truth for state management. The store combines the reducers that keep our data and UI in sync. Amplify’s Redux store listens to changes to the remotely fetched podcasts, the locally stored podcasts, the current audio playing, the sound object for the remote playlists, the sound object for the, and whether or not the player is currently playing music. This helps us ensure that the left playlist only plays one track at a time, while our right playlist functions like a playlist.
 
 
-This full-stack application was developed with Node, Express, React, Redux, GraphQL, Apollo, Postgres, Howler, Javascript, Typescript, Bootstrap, HTML, and CSS. When seeing that the two people who will join Sirius XM + Pandora's Software Engineering Apprenticeship will work with Typescript, I challenged myself to develop this project with Typescript to catch errors before runtime. To provide persistent audio, the application utilizes Redux to manage remote data and the window's local storage for saved podcasts. I chose a minimalist theme that focuses on podcasts. Utilizing Typescript, GraphQL, and Apollo were new concepts for me. The coding project also helped me learn how to leverage React-beautiful-dnd for drag and drop functionality. While the app currently loads data from a GraphQL API, the app has the code for a REST API as well.
+This full-stack application was developed with Node, Express, React, Redux, GraphQL, Apollo, Postgres, Howler, Javascript, Typescript, Bootstrap, HTML, and CSS. I challenged myself to develop this project with Typescript to learn and catch errors before runtime. To provide persistent audio, the application utilizes Redux to manage remote data and the window's local storage for saved podcasts. I chose a minimalist theme that focuses on podcasts. Utilizing Typescript, GraphQL, and Apollo were new concepts for me. The coding project also helped me learn how to leverage React-beautiful-dnd for drag and drop functionality. While the app currently loads data from a GraphQL API, the app has the code for a REST API as well.
 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
@@ -32,7 +30,7 @@ To use this application, you will need access to Node.js and a code editor such 
 
 ### Installing and Start
 To get started:
-* Clone the repo: `https://github.com/Kadecahe/Amplify.git`
+* Clone the repo: `https://github.com/Kadecahe/Amp.git`
 * To install dependencies, run `npm install`
 * Ensure that your Postgres database is running and that you have created a database called amplify. Once your database is up, run `npm run seed` to populate the backend with the data necessary to view this application.
 * You will need to start both the backend server and the front end create-react-app server to successfully run this project. You run both with one command by running `npm run start-dev`. You can also open up two terminals that start at the root of the project and run one of the following commands in each: `npm run server` and `npm start`
